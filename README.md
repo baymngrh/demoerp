@@ -20,14 +20,14 @@
 
 ## 👋 Halo!
 
-Gue **Mochammad Bayu Adhie Nugroho**, solo developer yang bikin sistem ERP ini dari nol. Project ini awalnya dikembangkan buat memenuhi kebutuhan operasional **PT. Gratia Makmur Sentosa**, tapi sekarang udah gue open-source biar bisa dipake dan dikembangin bareng-bareng.
+Aku **Mochammad Bayu Adhie Nugroho**, solo developer yang bikin sistem ERP ini dari nol. Project ini awalnya dikembangkan buat memenuhi kebutuhan operasional **PT. Gratia Makmur Sentosa**, tapi sekarang udah gue open-source biar bisa dipake dan dikembangin bareng-bareng.
 
 Kenapa bikin ERP sendiri? Karena software ERP yang ada di pasaran seringkali:
 - 💸 Mahal banget license-nya
 - 🔒 Susah di-customize sesuai kebutuhan
 - 📚 Ribet dan overwhelming fiturnya
 
-Jadi gue bikin yang **simpel, modern, dan sesuai kebutuhan bisnis lokal**.
+Jadi aku bikin yang **simpel, modern, dan sesuai kebutuhan bisnis lokal**.
 
 ---
 
@@ -681,57 +681,7 @@ Fitur andalan! Editor visual mirip Accurate 5:
 ---
 
 ## 🚀 Cara Install
-
-### Yang Dibutuhin
-- Python 3.10+
-- Node.js 18+
-- Database (SQLite/PostgreSQL)
-
-### Backend
-
-```bash
-# Clone repo
-git clone https://github.com/baymngrh/erpflask2.git
-cd erpflask2
-
-# Bikin virtual environment
-python -m venv venv
-venv\Scripts\activate  # Windows
-source venv/bin/activate  # Mac/Linux
-
-# Install dependencies
-cd backend
-pip install -r requirements.txt
-
-# Jalanin server
-python app.py
-```
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-### Akses Aplikasi
-- Frontend: http://localhost:5173
-- Backend: http://localhost:5000
-
----
-
-## 🔧 Konfigurasi
-
-Bikin file `.env` di folder backend:
-
-```env
-DATABASE_URL=sqlite:///erp_database.db
-JWT_SECRET_KEY=ganti-dengan-secret-key-lo
-FLASK_ENV=development
-```
-
----
+**HUBUNGI DEVELOPER!**
 
 ## 🏗️ Tech Stack
 
@@ -750,34 +700,12 @@ FLASK_ENV=development
 
 ---
 
-## 📁 Struktur Project
-
-```
-erpflask2/
-├── backend/
-│   ├── app.py           # Entry point
-│   ├── models/          # Database models
-│   ├── routes/          # API endpoints
-│   └── utils/           # Helper functions
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/  # Reusable components
-│   │   ├── pages/       # Halaman-halaman
-│   │   ├── store/       # Redux store
-│   │   └── utils/       # Utilities
-│   └── package.json
-│
-└── README.md
-```
-
----
 
 ## 🤝 Kontribusi
 
 Open for contribution! Kalo mau nambahin fitur atau fix bug:
 
-1. Fork repo ini
+1. Fork repo (hubungi developer untuk meminta link)
 2. Bikin branch baru (`git checkout -b fitur-keren`)
 3. Commit changes (`git commit -m 'Nambahin fitur keren'`)
 4. Push (`git push origin fitur-keren`)
@@ -787,7 +715,7 @@ Open for contribution! Kalo mau nambahin fitur atau fix bug:
 
 ## 📄 Lisensi
 
-MIT License - bebas dipake, dimodif, dan didistribusiin.
+**PROPIETARY LICENCE** - hanya yg ter approve developer aja yg bisa memodifikasi aplikasi ini
 
 ---
 
@@ -801,7 +729,7 @@ MIT License - bebas dipake, dimodif, dan didistribusiin.
 
 ## 🙏 Credits
 
-- Terinspirasi dari Accurate 5
+
 - Dikembangkan untuk PT. Gratia Makmur Sentosa
 - Built with ❤️ di Indonesia
 
@@ -811,6 +739,6 @@ MIT License - bebas dipake, dimodif, dan didistribusiin.
 
 **Kalo project ini membantu, jangan lupa kasih ⭐ ya!**
 
-*Solo project by Bayu - 2024*
+*Solo project by Bayu - 2025*
 
 </div>
