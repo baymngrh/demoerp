@@ -384,8 +384,7 @@ Jadi aku bikin yang **simpel, modern, dan sesuai kebutuhan bisnis lokal**.
 
 ### 📄 Document Management
 
-#### Visual Template Designer
-Fitur andalan! Editor visual mirip Accurate 5:
+#### Visual Template Designer:
 - **Band-based Layout** - Title, Page Header, Detail, Detail Material, Detail Expense, Summary, Page Footer
 - **Drag & Drop** - Seret field ke canvas
 - **Resize Handles** - 8 titik untuk resize element
