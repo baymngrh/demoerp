@@ -1,21 +1,50 @@
-MIT License
+PROPRIETARY SOFTWARE LICENSE
 
-Copyright (c) 2024 Bayu Mangara
+Copyright (c) 2024 Mochammad Bayu Adhie Nugroho. All Rights Reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This software and associated documentation files (the "Software") are the 
+exclusive property of Mochammad Bayu Adhie Nugroho.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+TERMS AND CONDITIONS:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. OWNERSHIP
+   The Software is proprietary and confidential. All intellectual property 
+   rights in the Software are owned by Mochammad Bayu Adhie Nugroho.
+
+2. RESTRICTIONS
+   You may NOT, without prior written permission from the copyright holder:
+   - Copy, modify, or distribute the Software
+   - Reverse engineer, decompile, or disassemble the Software
+   - Rent, lease, lend, sell, or sublicense the Software
+   - Use the Software for commercial purposes
+   - Remove or alter any proprietary notices or labels on the Software
+
+3. DEMO PURPOSE ONLY
+   This repository is provided for DEMONSTRATION PURPOSES ONLY. 
+   The code shown here represents a sample of the ERP system's capabilities.
+
+4. COMMERCIAL LICENSING
+   For commercial use, licensing inquiries, or custom development:
+   Contact: Mochammad Bayu Adhie Nugroho
+   GitHub: @baymngrh
+
+5. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+6. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR
+   OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, 
+   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR 
+   OTHER DEALINGS IN THE SOFTWARE.
+
+7. TERMINATION
+   This license is effective until terminated. Your rights under this license 
+   will terminate automatically without notice if you fail to comply with any 
+   of its terms.
+
+---
+
+Developed for PT. Gratia Makmur Sentosa
+By: Mochammad Bayu Adhie Nugroho
