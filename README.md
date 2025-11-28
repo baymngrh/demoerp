@@ -31,12 +31,14 @@ Jadi gue bikin yang **simpel, modern, dan sesuai kebutuhan bisnis lokal**.
 
 ---
 
-## ✨ Daftar Fitur Lengkap
+## ✨ Daftar Fitur Lengkap (26 Modul)
 
 ### 📊 Dashboard & Analytics
 - **Dashboard Utama** - Overview bisnis dalam satu halaman
-- **Statistik Real-time** - Total penjualan, pembelian, stok, dll
-- **Grafik Interaktif** - Chart penjualan harian/mingguan/bulanan
+- **Executive Dashboard** - Dashboard khusus untuk manajemen/direksi
+- **Statistik Real-time** - Total penjualan, pembelian, stok, produksi
+- **Grafik Interaktif** - Chart harian/mingguan/bulanan
+- **KPI Monitoring** - Key Performance Indicators
 - **Top Selling Products** - Produk terlaris
 - **Recent Activities** - Log aktivitas terbaru
 - **Quick Actions** - Shortcut ke fitur yang sering dipake
@@ -49,8 +51,8 @@ Jadi gue bikin yang **simpel, modern, dan sesuai kebutuhan bisnis lokal**.
 
 #### Lead Management
 - Capture & tracking leads
-- Lead scoring (rating bintang)
-- Lead source tracking (website, referral, cold call, social media, dll)
+- Lead scoring (rating bintang 1-5)
+- Lead source tracking (website, referral, cold call, social media, trade show, advertisement)
 - Status management (New → Contacted → Qualified → Converted/Lost)
 - Konversi lead ke opportunity
 - Bulk actions (update status, delete, assign)
@@ -130,7 +132,7 @@ Jadi gue bikin yang **simpel, modern, dan sesuai kebutuhan bisnis lokal**.
 
 ---
 
-### 📦 Inventory Management
+### 📦 Inventory / Warehouse Management
 
 #### Product Master
 - SKU management
@@ -142,6 +144,15 @@ Jadi gue bikin yang **simpel, modern, dan sesuai kebutuhan bisnis lokal**.
 - Multiple UoM conversion
 - Min/Max stock level
 - Reorder point
+- Product costing
+- Excel import/export
+
+#### Materials Management
+- Materials dashboard
+- Materials list & CRUD
+- Material categories
+- Material stock tracking
+- Material issue to production
 
 #### Stock Control
 - Real-time stock levels
@@ -150,12 +161,15 @@ Jadi gue bikin yang **simpel, modern, dan sesuai kebutuhan bisnis lokal**.
 - Stock valuation (FIFO, LIFO, Average)
 - Minimum stock alerts
 - Stock aging report
+- Stock input form
 
 #### Warehouse Management
 - Multiple warehouse
 - Location/bin management
 - Zone management
 - Warehouse transfer
+- Warehouse dashboard
+- Enhanced warehouse features
 
 #### Stock Movements
 - **Stock Adjustment** - Koreksi stok
@@ -175,8 +189,11 @@ Jadi gue bikin yang **simpel, modern, dan sesuai kebutuhan bisnis lokal**.
 - Cost calculation
 - BOM versioning
 - Formula/recipe management
+- BOM history tracking
 
 #### Work Order
+- Work order form & list
+- Work order detail view
 - Production scheduling
 - Material requirements planning
 - Labor tracking
@@ -185,18 +202,136 @@ Jadi gue bikin yang **simpel, modern, dan sesuai kebutuhan bisnis lokal**.
 - Status: Draft → Released → In Progress → Completed
 - Partial completion
 
-#### Manufacturing Plan
-- Production planning
+#### Production Input
+- Production record form
+- Downtime input
+- Quality check form
+- Material issue form
+- Efficiency tracking
+
+#### Production Planning
+- Production planning dashboard
+- Production planning form & list
+- Production schedule form
 - Capacity planning
 - Resource allocation
 - Schedule optimization
 
-#### Quality Control
-- Inspection points
-- Quality parameters
-- Pass/Fail criteria
-- Defect tracking
-- QC reports
+#### WIP (Work In Progress)
+- WIP Dashboard
+- WIP Batch List
+- WIP Accounting
+- WIP Job Costing
+- Traceability
+
+---
+
+### 📊 MRP (Material Requirements Planning)
+
+- **MRP Dashboard** - Overview kebutuhan material
+- **MRP Calculation** - Kalkulasi kebutuhan material otomatis
+- **Material Requirements** - Daftar kebutuhan material
+- **Demand Planning** - Perencanaan permintaan
+- **Capacity Planning** - Perencanaan kapasitas produksi
+- **What-If Simulation** - Simulasi skenario produksi
+- **Supplier Integration** - Integrasi dengan supplier
+
+---
+
+### 📈 OEE (Overall Equipment Effectiveness)
+
+- **OEE Dashboard** - Monitoring efektivitas mesin
+- **OEE Dashboard Enhanced** - Dashboard dengan fitur lengkap
+- **OEE Record Form** - Input data OEE
+- **Machine Analytics** - Analisis performa mesin
+- **Availability tracking** - Ketersediaan mesin
+- **Performance tracking** - Performa mesin
+- **Quality tracking** - Kualitas output
+
+---
+
+### 🔧 Maintenance Management
+
+- **Maintenance Dashboard** - Overview maintenance
+- **Maintenance Dashboard Enhanced** - Dashboard lengkap
+- **Maintenance Form** - Input data maintenance
+- **Maintenance List** - Daftar maintenance
+- **Maintenance Schedule** - Jadwal maintenance
+- **Maintenance Request Form** - Request maintenance
+- **Maintenance Work Order** - Work order maintenance
+- **Maintenance Parts** - Spare parts management
+- **Maintenance Analytics** - Analisis maintenance
+- **Preventive Maintenance** - Jadwal maintenance berkala
+- **Corrective Maintenance** - Perbaikan kerusakan
+
+---
+
+### 🔬 Quality Control
+
+- **Quality Dashboard Enhanced** - Overview QC
+- **Quality Test Form** - Form pengujian kualitas
+- **Quality Test List** - Daftar pengujian
+- **Quality Alerts** - Notifikasi masalah kualitas
+- **Quality Analytics** - Analisis kualitas
+- **Quality Audits** - Audit kualitas
+- **Inspection points** - Titik inspeksi
+- **Quality parameters** - Parameter kualitas
+- **Pass/Fail criteria** - Kriteria lulus/gagal
+- **Defect tracking** - Tracking cacat produk
+- **QC reports** - Laporan QC
+
+---
+
+### 🧪 R&D (Research & Development)
+
+- **R&D Dashboard** - Overview R&D
+- **Project Management** - Kelola project R&D
+  - Project Form & List
+  - Project Details
+- **Experiment Management** - Kelola eksperimen
+  - Experiment Form & List
+- **Material R&D** - Material untuk R&D
+  - Material Form & List
+- **Product Development** - Pengembangan produk baru
+  - Product Development Form & List
+- **Research Reports** - Laporan penelitian
+
+---
+
+### 🚚 Shipping & Logistics
+
+- **Shipping Dashboard** - Overview pengiriman
+- **Shipping Order** - Order pengiriman
+  - Shipping Order Form
+  - Shipping Order List
+  - Shipping Order Details
+- **Shipment Form** - Form pengiriman
+- **Delivery Tracking** - Tracking pengiriman real-time
+- **Shipping Tracking Form** - Form tracking
+- **Shipping Calculator** - Kalkulasi ongkir
+- **Logistics Providers** - Kelola jasa pengiriman
+- **Shipping Reports** - Laporan pengiriman
+
+---
+
+### 🔄 Returns Management
+
+- **Returns Dashboard** - Overview retur
+- **Create Return Form** - Buat retur baru
+- **Return Details** - Detail retur
+- **Return processing** - Proses retur
+- **Refund management** - Kelola refund
+- **Return reasons tracking** - Tracking alasan retur
+
+---
+
+### 🗑️ Waste Management
+
+- **Waste Record Form** - Input data waste/limbah
+- **Waste Record List** - Daftar waste
+- **Waste tracking** - Tracking limbah produksi
+- **Waste analysis** - Analisis limbah
+- **Waste reduction** - Program pengurangan limbah
 
 ---
 
@@ -251,7 +386,7 @@ Jadi gue bikin yang **simpel, modern, dan sesuai kebutuhan bisnis lokal**.
 
 #### Visual Template Designer
 Fitur andalan! Editor visual mirip Accurate 5:
-- **Band-based Layout** - Title, Page Header, Detail, Summary, Page Footer
+- **Band-based Layout** - Title, Page Header, Detail, Detail Material, Detail Expense, Summary, Page Footer
 - **Drag & Drop** - Seret field ke canvas
 - **Resize Handles** - 8 titik untuk resize element
 - **Grid Overlay** - Grid 5mm untuk alignment
@@ -262,7 +397,7 @@ Fitur andalan! Editor visual mirip Accurate 5:
 - **Copy/Paste/Cut** - Duplikasi element
 - **Keyboard Shortcuts** - Power user friendly
 - **Export/Import** - Template dalam format JSON
-- **Preview Mode** - Lihat hasil dengan data real
+- **Preview Mode** - Lihat hasil dengan data real dari database
 - **PDF Generation** - Generate PDF langsung
 
 #### Tipe Dokumen (40+ jenis)
@@ -333,7 +468,8 @@ Fitur andalan! Editor visual mirip Accurate 5:
 - Emergency contact
 - Department & position
 
-#### Attendance
+#### Attendance Management
+- Attendance form
 - Clock in/out
 - Overtime tracking
 - Late/early tracking
@@ -341,19 +477,100 @@ Fitur andalan! Editor visual mirip Accurate 5:
 - Leave integration
 
 #### Leave Management
+- Leave form
+- Leave request form
 - Leave types (cuti tahunan, sakit, dll)
 - Leave balance
-- Leave request
 - Approval workflow
 - Leave calendar
 
 #### Payroll
+- Payroll form
+- Payroll list
+- Payroll period form
 - Salary components
 - Allowances & deductions
 - Tax calculation (PPh 21)
 - BPJS calculation
 - Payslip generation
 - Payroll reports
+
+#### Roster / Shift Management
+- Roster calendar
+- Roster drag & drop
+- Roster management complete
+- Shift scheduling
+- Team assignment
+
+#### Training Management
+- Training programs
+- Training schedule
+- Training attendance
+- Training evaluation
+- Certification tracking
+
+#### Performance Appraisal
+- Appraisal cycle form
+- Appraisal form
+- Appraisal list
+- KPI setting
+- Performance review
+- 360-degree feedback
+
+---
+
+### ✅ Approval Workflow
+
+- **Approval Dashboard** - Overview approval pending
+- **Approval Detail** - Detail approval
+- **Multi-level approval** - Approval bertingkat
+- **Approval routing** - Routing otomatis
+- **Approval history** - Riwayat approval
+- **Email notification** - Notifikasi email
+
+---
+
+### 📊 Reports & Analytics
+
+- **Reports Dashboard** - Overview laporan
+- **Report Generator** - Generate laporan
+- **Custom Report Builder** - Buat laporan custom
+- **Advanced Report Builder** - Report builder advanced
+- **Report Scheduler** - Jadwal laporan otomatis
+- **Scheduled Reports** - Laporan terjadwal
+- **Executive Dashboard** - Dashboard eksekutif
+- **Export PDF/Excel/CSV** - Export berbagai format
+
+---
+
+### 📺 TV Display / Digital Signage
+
+- **TV Display Selector** - Pilih tampilan TV
+- **TV Display Overview** - Overview untuk TV
+- **TV Display Production** - Status produksi untuk TV
+- **TV Display Shipping** - Status pengiriman untuk TV
+- **TV Display Roster** - Jadwal kerja untuk TV
+- **Real-time updates** - Update otomatis
+
+---
+
+### 🔗 Integration & API
+
+- **API Gateway** - Kelola API
+- **External Connectors** - Koneksi ke sistem eksternal
+- **Webhook Management** - Kelola webhook
+- **Data Synchronization** - Sinkronisasi data
+- **RESTful API** - API lengkap
+- **API documentation** - Dokumentasi API
+
+---
+
+### 🤖 AI Assistant
+
+- **AI Chat Assistant** - Asisten AI untuk query data
+- **Natural language query** - Query dengan bahasa natural
+- **Data insights** - Insight dari data
+- **Recommendations** - Rekomendasi otomatis
 
 ---
 
@@ -386,14 +603,24 @@ Fitur andalan! Editor visual mirip Accurate 5:
 - Tax settings
 - Currency settings
 - Email settings
-- Backup & restore
 
-#### Integration
-- RESTful API
-- Webhook support
-- Export (PDF, Excel, CSV)
-- Import data
-- API documentation
+#### Backup & Restore
+- Database backup
+- Scheduled backup
+- Restore functionality
+- Backup history
+
+#### System Monitor
+- System health check
+- Performance monitoring
+- Error logging
+- Resource usage
+
+#### Import Data
+- Excel import
+- CSV import
+- Data mapping
+- Validation
 
 ---
 
